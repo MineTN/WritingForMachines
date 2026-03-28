@@ -1,0 +1,5 @@
+tiktoken
+wikipedia-api
+tqdm
+pandas
+matplotlib

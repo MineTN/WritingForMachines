@@ -1,0 +1,454 @@
+{
+  "audit": [
+    {
+      "phrase": "and",
+      "symbol": "&",
+      "tier": 1,
+      "tier_label": "ASCII",
+      "GPT-2_delta": 0,
+      "GPT-4o_delta": 0,
+      "cross_tokenizer_safe": true,
+      "net_beneficial": false
+    },
+    {
+      "phrase": "at",
+      "symbol": "@",
+      "tier": 1,
+      "tier_label": "ASCII",
+      "GPT-2_delta": 0,
+      "GPT-4o_delta": 0,
+      "cross_tokenizer_safe": true,
+      "net_beneficial": false
+    },
+    {
+      "phrase": "number",
+      "symbol": "#",
+      "tier": 1,
+      "tier_label": "ASCII",
+      "GPT-2_delta": 0,
+      "GPT-4o_delta": 0,
+      "cross_tokenizer_safe": true,
+      "net_beneficial": false
+    },
+    {
+      "phrase": "percent",
+      "symbol": "%",
+      "tier": 1,
+      "tier_label": "ASCII",
+      "GPT-2_delta": 0,
+      "GPT-4o_delta": 0,
+      "cross_tokenizer_safe": true,
+      "net_beneficial": false
+    },
+    {
+      "phrase": "divided by",
+      "symbol": "/",
+      "tier": 1,
+      "tier_label": "ASCII",
+      "GPT-2_delta": 2,
+      "GPT-4o_delta": 2,
+      "cross_tokenizer_safe": true,
+      "net_beneficial": true
+    },
+    {
+      "phrase": "times",
+      "symbol": "*",
+      "tier": 1,
+      "tier_label": "ASCII",
+      "GPT-2_delta": 0,
+      "GPT-4o_delta": 0,
+      "cross_tokenizer_safe": true,
+      "net_beneficial": false
+    },
+    {
+      "phrase": "equals",
+      "symbol": "=",
+      "tier": 1,
+      "tier_label": "ASCII",
+      "GPT-2_delta": 1,
+      "GPT-4o_delta": 0,
+      "cross_tokenizer_safe": true,
+      "net_beneficial": false
+    },
+    {
+      "phrase": "less than",
+      "symbol": "<",
+      "tier": 1,
+      "tier_label": "ASCII",
+      "GPT-2_delta": 1,
+      "GPT-4o_delta": 1,
+      "cross_tokenizer_safe": true,
+      "net_beneficial": true
+    },
+    {
+      "phrase": "greater than",
+      "symbol": ">",
+      "tier": 1,
+      "tier_label": "ASCII",
+      "GPT-2_delta": 2,
+      "GPT-4o_delta": 1,
+      "cross_tokenizer_safe": true,
+      "net_beneficial": true
+    },
+    {
+      "phrase": "plus or minus",
+      "symbol": "+/-",
+      "tier": 1,
+      "tier_label": "ASCII",
+      "GPT-2_delta": 1,
+      "GPT-4o_delta": 1,
+      "cross_tokenizer_safe": false,
+      "net_beneficial": true
+    },
+    {
+      "phrase": "degrees",
+      "symbol": "°",
+      "tier": 2,
+      "tier_label": "Latin-1",
+      "GPT-2_delta": 1,
+      "GPT-4o_delta": 0,
+      "cross_tokenizer_safe": true,
+      "net_beneficial": false
+    },
+    {
+      "phrase": "plus or minus",
+      "symbol": "±",
+      "tier": 2,
+      "tier_label": "Latin-1",
+      "GPT-2_delta": 2,
+      "GPT-4o_delta": 2,
+      "cross_tokenizer_safe": true,
+      "net_beneficial": true
+    },
+    {
+      "phrase": "multiplied by",
+      "symbol": "×",
+      "tier": 2,
+      "tier_label": "Latin-1",
+      "GPT-2_delta": 2,
+      "GPT-4o_delta": 2,
+      "cross_tokenizer_safe": true,
+      "net_beneficial": true
+    },
+    {
+      "phrase": "divided by",
+      "symbol": "÷",
+      "tier": 2,
+      "tier_label": "Latin-1",
+      "GPT-2_delta": 1,
+      "GPT-4o_delta": 1,
+      "cross_tokenizer_safe": false,
+      "net_beneficial": true
+    },
+    {
+      "phrase": "one half",
+      "symbol": "½",
+      "tier": 2,
+      "tier_label": "Latin-1",
+      "GPT-2_delta": 1,
+      "GPT-4o_delta": 1,
+      "cross_tokenizer_safe": true,
+      "net_beneficial": true
+    },
+    {
+      "phrase": "one quarter",
+      "symbol": "¼",
+      "tier": 2,
+      "tier_label": "Latin-1",
+      "GPT-2_delta": 0,
+      "GPT-4o_delta": 1,
+      "cross_tokenizer_safe": false,
+      "net_beneficial": false
+    },
+    {
+      "phrase": "three quarters",
+      "symbol": "¾",
+      "tier": 2,
+      "tier_label": "Latin-1",
+      "GPT-2_delta": 0,
+      "GPT-4o_delta": 1,
+      "cross_tokenizer_safe": false,
+      "net_beneficial": false
+    },
+    {
+      "phrase": "micro",
+      "symbol": "µ",
+      "tier": 2,
+      "tier_label": "Latin-1",
+      "GPT-2_delta": -1,
+      "GPT-4o_delta": 0,
+      "cross_tokenizer_safe": false,
+      "net_beneficial": false
+    },
+    {
+      "phrase": "squared",
+      "symbol": "²",
+      "tier": 2,
+      "tier_label": "Latin-1",
+      "GPT-2_delta": 1,
+      "GPT-4o_delta": 1,
+      "cross_tokenizer_safe": true,
+      "net_beneficial": true
+    },
+    {
+      "phrase": "cubed",
+      "symbol": "³",
+      "tier": 2,
+      "tier_label": "Latin-1",
+      "GPT-2_delta": 1,
+      "GPT-4o_delta": 2,
+      "cross_tokenizer_safe": false,
+      "net_beneficial": true
+    },
+    {
+      "phrase": "less than or equal to",
+      "symbol": "≤",
+      "tier": 3,
+      "tier_label": "Math Unicode",
+      "GPT-2_delta": 3,
+      "GPT-4o_delta": 3,
+      "cross_tokenizer_safe": false,
+      "net_beneficial": true
+    },
+    {
+      "phrase": "greater than or equal to",
+      "symbol": "≥",
+      "tier": 3,
+      "tier_label": "Math Unicode",
+      "GPT-2_delta": 4,
+      "GPT-4o_delta": 3,
+      "cross_tokenizer_safe": false,
+      "net_beneficial": true
+    },
+    {
+      "phrase": "not equal to",
+      "symbol": "≠",
+      "tier": 3,
+      "tier_label": "Math Unicode",
+      "GPT-2_delta": 1,
+      "GPT-4o_delta": 1,
+      "cross_tokenizer_safe": false,
+      "net_beneficial": true
+    },
+    {
+      "phrase": "approximately",
+      "symbol": "≈",
+      "tier": 3,
+      "tier_label": "Math Unicode",
+      "GPT-2_delta": -1,
+      "GPT-4o_delta": -1,
+      "cross_tokenizer_safe": false,
+      "net_beneficial": false
+    },
+    {
+      "phrase": "therefore",
+      "symbol": "∴",
+      "tier": 3,
+      "tier_label": "Math Unicode",
+      "GPT-2_delta": 0,
+      "GPT-4o_delta": 0,
+      "cross_tokenizer_safe": false,
+      "net_beneficial": false
+    },
+    {
+      "phrase": "because",
+      "symbol": "∵",
+      "tier": 3,
+      "tier_label": "Math Unicode",
+      "GPT-2_delta": -1,
+      "GPT-4o_delta": -1,
+      "cross_tokenizer_safe": false,
+      "net_beneficial": false
+    },
+    {
+      "phrase": "implies",
+      "symbol": "→",
+      "tier": 3,
+      "tier_label": "Math Unicode",
+      "GPT-2_delta": 1,
+      "GPT-4o_delta": 1,
+      "cross_tokenizer_safe": true,
+      "net_beneficial": true
+    },
+    {
+      "phrase": "if and only if",
+      "symbol": "↔",
+      "tier": 3,
+      "tier_label": "Math Unicode",
+      "GPT-2_delta": 2,
+      "GPT-4o_delta": 2,
+      "cross_tokenizer_safe": false,
+      "net_beneficial": true
+    },
+    {
+      "phrase": "element of",
+      "symbol": "∈",
+      "tier": 3,
+      "tier_label": "Math Unicode",
+      "GPT-2_delta": 0,
+      "GPT-4o_delta": 0,
+      "cross_tokenizer_safe": false,
+      "net_beneficial": false
+    },
+    {
+      "phrase": "subset of",
+      "symbol": "⊂",
+      "tier": 3,
+      "tier_label": "Math Unicode",
+      "GPT-2_delta": 0,
+      "GPT-4o_delta": -1,
+      "cross_tokenizer_safe": false,
+      "net_beneficial": false
+    },
+    {
+      "phrase": "infinity",
+      "symbol": "∞",
+      "tier": 3,
+      "tier_label": "Math Unicode",
+      "GPT-2_delta": 0,
+      "GPT-4o_delta": -1,
+      "cross_tokenizer_safe": false,
+      "net_beneficial": false
+    },
+    {
+      "phrase": "proportional to",
+      "symbol": "∝",
+      "tier": 3,
+      "tier_label": "Math Unicode",
+      "GPT-2_delta": 2,
+      "GPT-4o_delta": 2,
+      "cross_tokenizer_safe": false,
+      "net_beneficial": true
+    },
+    {
+      "phrase": "sum of",
+      "symbol": "∑",
+      "tier": 3,
+      "tier_label": "Math Unicode",
+      "GPT-2_delta": 0,
+      "GPT-4o_delta": 0,
+      "cross_tokenizer_safe": false,
+      "net_beneficial": false
+    },
+    {
+      "phrase": "square root of",
+      "symbol": "√",
+      "tier": 3,
+      "tier_label": "Math Unicode",
+      "GPT-2_delta": 1,
+      "GPT-4o_delta": 1,
+      "cross_tokenizer_safe": false,
+      "net_beneficial": true
+    },
+    {
+      "phrase": "integral of",
+      "symbol": "∫",
+      "tier": 3,
+      "tier_label": "Math Unicode",
+      "GPT-2_delta": 1,
+      "GPT-4o_delta": 0,
+      "cross_tokenizer_safe": false,
+      "net_beneficial": false
+    },
+    {
+      "phrase": "happy",
+      "symbol": "😊",
+      "tier": 4,
+      "tier_label": "Emoji",
+      "GPT-2_delta": -1,
+      "GPT-4o_delta": -1,
+      "cross_tokenizer_safe": false,
+      "net_beneficial": false
+    },
+    {
+      "phrase": "correct",
+      "symbol": "✅",
+      "tier": 4,
+      "tier_label": "Emoji",
+      "GPT-2_delta": -1,
+      "GPT-4o_delta": -1,
+      "cross_tokenizer_safe": false,
+      "net_beneficial": false
+    },
+    {
+      "phrase": "warning",
+      "symbol": "⚠️",
+      "tier": 4,
+      "tier_label": "Emoji",
+      "GPT-2_delta": -3,
+      "GPT-4o_delta": -3,
+      "cross_tokenizer_safe": false,
+      "net_beneficial": false
+    },
+    {
+      "phrase": "fire",
+      "symbol": "🔥",
+      "tier": 4,
+      "tier_label": "Emoji",
+      "GPT-2_delta": -2,
+      "GPT-4o_delta": -2,
+      "cross_tokenizer_safe": false,
+      "net_beneficial": false
+    },
+    {
+      "phrase": "star",
+      "symbol": "⭐",
+      "tier": 4,
+      "tier_label": "Emoji",
+      "GPT-2_delta": -2,
+      "GPT-4o_delta": -1,
+      "cross_tokenizer_safe": false,
+      "net_beneficial": false
+    }
+  ],
+  "phase3": {
+    "A. All pairs\n(mixed tiers)": {
+      "GPT-2": {
+        "before": 38324,
+        "after": 42213,
+        "pct": 10.148
+      },
+      "GPT-4o": {
+        "before": 38516,
+        "after": 42221,
+        "pct": 9.619
+      }
+    },
+    "B. Safe+Beneficial\n(cross-tokenizer)": {
+      "GPT-2": {
+        "before": 38324,
+        "after": 38317,
+        "pct": -0.018
+      },
+      "GPT-4o": {
+        "before": 38516,
+        "after": 38509,
+        "pct": -0.018
+      }
+    },
+    "C. Tier 1 only\n(ASCII)": {
+      "GPT-2": {
+        "before": 38324,
+        "after": 42083,
+        "pct": 9.808
+      },
+      "GPT-4o": {
+        "before": 38516,
+        "after": 42119,
+        "pct": 9.355
+      }
+    },
+    "D. Tier 1+2\n(ASCII + Latin-1)": {
+      "GPT-2": {
+        "before": 38324,
+        "after": 42087,
+        "pct": 9.819
+      },
+      "GPT-4o": {
+        "before": 38516,
+        "after": 42123,
+        "pct": 9.365
+      }
+    }
+  }
+}
